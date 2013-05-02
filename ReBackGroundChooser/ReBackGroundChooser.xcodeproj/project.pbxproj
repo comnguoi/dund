@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66DDFAC017307FCE00259C66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDFABF17307FCE00259C66 /* UIKit.framework */; };
+		66DDFAC217307FCE00259C66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDFAC117307FCE00259C66 /* Foundation.framework */; };
+		66DDFAC417307FCE00259C66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDFAC317307FCE00259C66 /* CoreGraphics.framework */; };
+		66DDFACA17307FCE00259C66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAC817307FCE00259C66 /* InfoPlist.strings */; };
+		66DDFACC17307FCE00259C66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDFACB17307FCE00259C66 /* main.m */; };
+		66DDFAD017307FCE00259C66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDFACF17307FCE00259C66 /* AppDelegate.m */; };
+		66DDFAD217307FCE00259C66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAD117307FCE00259C66 /* Default.png */; };
+		66DDFAD417307FCF00259C66 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAD317307FCF00259C66 /* Default@2x.png */; };
+		66DDFAD617307FCF00259C66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAD517307FCF00259C66 /* Default-568h@2x.png */; };
+		66DDFAD917307FCF00259C66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDFAD817307FCF00259C66 /* ViewController.m */; };
+		66DDFADC17307FCF00259C66 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFADA17307FCF00259C66 /* ViewController.xib */; };
+		66DDFAEF173080A000259C66 /* fight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAE3173080A000259C66 /* fight.jpg */; };
+		66DDFAF0173080A000259C66 /* garden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAE4173080A000259C66 /* garden.jpg */; };
+		66DDFAF1173080A000259C66 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAE5173080A000259C66 /* girl.png */; };
+		66DDFAF2173080A000259C66 /* grapeapple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAE6173080A000259C66 /* grapeapple.jpg */; };
+		66DDFAF3173080A000259C66 /* hello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAE7173080A000259C66 /* hello.jpg */; };
+		66DDFAF4173080A000259C66 /* ikea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAE8173080A000259C66 /* ikea.jpg */; };
+		66DDFAF5173080A000259C66 /* kiwi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAE9173080A000259C66 /* kiwi.jpg */; };
+		66DDFAF6173080A000259C66 /* library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAEA173080A000259C66 /* library.jpg */; };
+		66DDFAF7173080A000259C66 /* lickme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAEB173080A000259C66 /* lickme.jpg */; };
+		66DDFAF8173080A000259C66 /* limegreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAEC173080A000259C66 /* limegreen.jpg */; };
+		66DDFAF9173080A000259C66 /* penguins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAED173080A000259C66 /* penguins.jpg */; };
+		66DDFAFA173080A000259C66 /* samurai.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DDFAEE173080A000259C66 /* samurai.png */; };
+		66DDFAFD1730818900259C66 /* ResourceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DDFAFC1730818900259C66 /* ResourceData.m */; };
+		66DDFB661730AC3100259C66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDFB651730AC3100259C66 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66DDFABB17307FCE00259C66 /* ReBackGroundChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReBackGroundChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DDFABF17307FCE00259C66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66DDFAC117307FCE00259C66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66DDFAC317307FCE00259C66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66DDFAC717307FCE00259C66 /* ReBackGroundChooser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReBackGroundChooser-Info.plist"; sourceTree = "<group>"; };
+		66DDFAC917307FCE00259C66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66DDFACB17307FCE00259C66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66DDFACD17307FCE00259C66 /* ReBackGroundChooser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReBackGroundChooser-Prefix.pch"; sourceTree = "<group>"; };
+		66DDFACE17307FCE00259C66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66DDFACF17307FCE00259C66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66DDFAD117307FCE00259C66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		66DDFAD317307FCF00259C66 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		66DDFAD517307FCF00259C66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		66DDFAD717307FCF00259C66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66DDFAD817307FCF00259C66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66DDFADB17307FCF00259C66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		66DDFAE3173080A000259C66 /* fight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fight.jpg; sourceTree = "<group>"; };
+		66DDFAE4173080A000259C66 /* garden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garden.jpg; sourceTree = "<group>"; };
+		66DDFAE5173080A000259C66 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		66DDFAE6173080A000259C66 /* grapeapple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grapeapple.jpg; sourceTree = "<group>"; };
+		66DDFAE7173080A000259C66 /* hello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello.jpg; sourceTree = "<group>"; };
+		66DDFAE8173080A000259C66 /* ikea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ikea.jpg; sourceTree = "<group>"; };
+		66DDFAE9173080A000259C66 /* kiwi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiwi.jpg; sourceTree = "<group>"; };
+		66DDFAEA173080A000259C66 /* library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = library.jpg; sourceTree = "<group>"; };
+		66DDFAEB173080A000259C66 /* lickme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lickme.jpg; sourceTree = "<group>"; };
+		66DDFAEC173080A000259C66 /* limegreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = limegreen.jpg; sourceTree = "<group>"; };
+		66DDFAED173080A000259C66 /* penguins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penguins.jpg; sourceTree = "<group>"; };
+		66DDFAEE173080A000259C66 /* samurai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samurai.png; sourceTree = "<group>"; };
+		66DDFAFB1730818900259C66 /* ResourceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceData.h; sourceTree = "<group>"; };
+		66DDFAFC1730818900259C66 /* ResourceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceData.m; sourceTree = "<group>"; };
+		66DDFB651730AC3100259C66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DDFAB817307FCE00259C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DDFB661730AC3100259C66 /* QuartzCore.framework in Frameworks */,
+				66DDFAC017307FCE00259C66 /* UIKit.framework in Frameworks */,
+				66DDFAC217307FCE00259C66 /* Foundation.framework in Frameworks */,
+				66DDFAC417307FCE00259C66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DDFAB017307FCE00259C66 = {
+			isa = PBXGroup;
+			children = (
+				66DDFB651730AC3100259C66 /* QuartzCore.framework */,
+				66DDFAC517307FCE00259C66 /* ReBackGroundChooser */,
+				66DDFABE17307FCE00259C66 /* Frameworks */,
+				66DDFABC17307FCE00259C66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66DDFABC17307FCE00259C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DDFABB17307FCE00259C66 /* ReBackGroundChooser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DDFABE17307FCE00259C66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66DDFABF17307FCE00259C66 /* UIKit.framework */,
+				66DDFAC117307FCE00259C66 /* Foundation.framework */,
+				66DDFAC317307FCE00259C66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66DDFAC517307FCE00259C66 /* ReBackGroundChooser */ = {
+			isa = PBXGroup;
+			children = (
+				66DDFACE17307FCE00259C66 /* AppDelegate.h */,
+				66DDFACF17307FCE00259C66 /* AppDelegate.m */,
+				66DDFAD717307FCF00259C66 /* ViewController.h */,
+				66DDFAD817307FCF00259C66 /* ViewController.m */,
+				66DDFADA17307FCF00259C66 /* ViewController.xib */,
+				66DDFAFB1730818900259C66 /* ResourceData.h */,
+				66DDFAFC1730818900259C66 /* ResourceData.m */,
+				66DDFAE21730806800259C66 /* Resources */,
+				66DDFAC617307FCE00259C66 /* Supporting Files */,
+			);
+			path = ReBackGroundChooser;
+			sourceTree = "<group>";
+		};
+		66DDFAC617307FCE00259C66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66DDFAC717307FCE00259C66 /* ReBackGroundChooser-Info.plist */,
+				66DDFAC817307FCE00259C66 /* InfoPlist.strings */,
+				66DDFACB17307FCE00259C66 /* main.m */,
+				66DDFACD17307FCE00259C66 /* ReBackGroundChooser-Prefix.pch */,
+				66DDFAD117307FCE00259C66 /* Default.png */,
+				66DDFAD317307FCF00259C66 /* Default@2x.png */,
+				66DDFAD517307FCF00259C66 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66DDFAE21730806800259C66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66DDFAE3173080A000259C66 /* fight.jpg */,
+				66DDFAE4173080A000259C66 /* garden.jpg */,
+				66DDFAE5173080A000259C66 /* girl.png */,
+				66DDFAE6173080A000259C66 /* grapeapple.jpg */,
+				66DDFAE7173080A000259C66 /* hello.jpg */,
+				66DDFAE8173080A000259C66 /* ikea.jpg */,
+				66DDFAE9173080A000259C66 /* kiwi.jpg */,
+				66DDFAEA173080A000259C66 /* library.jpg */,
+				66DDFAEB173080A000259C66 /* lickme.jpg */,
+				66DDFAEC173080A000259C66 /* limegreen.jpg */,
+				66DDFAED173080A000259C66 /* penguins.jpg */,
+				66DDFAEE173080A000259C66 /* samurai.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DDFABA17307FCE00259C66 /* ReBackGroundChooser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DDFADF17307FCF00259C66 /* Build configuration list for PBXNativeTarget "ReBackGroundChooser" */;
+			buildPhases = (
+				66DDFAB717307FCE00259C66 /* Sources */,
+				66DDFAB817307FCE00259C66 /* Frameworks */,
+				66DDFAB917307FCE00259C66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReBackGroundChooser;
+			productName = ReBackGroundChooser;
+			productReference = 66DDFABB17307FCE00259C66 /* ReBackGroundChooser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DDFAB217307FCE00259C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = MAC;
+			};
+			buildConfigurationList = 66DDFAB517307FCE00259C66 /* Build configuration list for PBXProject "ReBackGroundChooser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66DDFAB017307FCE00259C66;
+			productRefGroup = 66DDFABC17307FCE00259C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DDFABA17307FCE00259C66 /* ReBackGroundChooser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DDFAB917307FCE00259C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DDFACA17307FCE00259C66 /* InfoPlist.strings in Resources */,
+				66DDFAD217307FCE00259C66 /* Default.png in Resources */,
+				66DDFAD417307FCF00259C66 /* Default@2x.png in Resources */,
+				66DDFAD617307FCF00259C66 /* Default-568h@2x.png in Resources */,
+				66DDFADC17307FCF00259C66 /* ViewController.xib in Resources */,
+				66DDFAEF173080A000259C66 /* fight.jpg in Resources */,
+				66DDFAF0173080A000259C66 /* garden.jpg in Resources */,
+				66DDFAF1173080A000259C66 /* girl.png in Resources */,
+				66DDFAF2173080A000259C66 /* grapeapple.jpg in Resources */,
+				66DDFAF3173080A000259C66 /* hello.jpg in Resources */,
+				66DDFAF4173080A000259C66 /* ikea.jpg in Resources */,
+				66DDFAF5173080A000259C66 /* kiwi.jpg in Resources */,
+				66DDFAF6173080A000259C66 /* library.jpg in Resources */,
+				66DDFAF7173080A000259C66 /* lickme.jpg in Resources */,
+				66DDFAF8173080A000259C66 /* limegreen.jpg in Resources */,
+				66DDFAF9173080A000259C66 /* penguins.jpg in Resources */,
+				66DDFAFA173080A000259C66 /* samurai.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DDFAB717307FCE00259C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DDFACC17307FCE00259C66 /* main.m in Sources */,
+				66DDFAD017307FCE00259C66 /* AppDelegate.m in Sources */,
+				66DDFAD917307FCF00259C66 /* ViewController.m in Sources */,
+				66DDFAFD1730818900259C66 /* ResourceData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66DDFAC817307FCE00259C66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DDFAC917307FCE00259C66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66DDFADA17307FCF00259C66 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DDFADB17307FCF00259C66 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66DDFADD17307FCF00259C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66DDFADE17307FCF00259C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66DDFAE017307FCF00259C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReBackGroundChooser/ReBackGroundChooser-Prefix.pch";
+				INFOPLIST_FILE = "ReBackGroundChooser/ReBackGroundChooser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66DDFAE117307FCF00259C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReBackGroundChooser/ReBackGroundChooser-Prefix.pch";
+				INFOPLIST_FILE = "ReBackGroundChooser/ReBackGroundChooser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DDFAB517307FCE00259C66 /* Build configuration list for PBXProject "ReBackGroundChooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DDFADD17307FCF00259C66 /* Debug */,
+				66DDFADE17307FCF00259C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DDFADF17307FCF00259C66 /* Build configuration list for PBXNativeTarget "ReBackGroundChooser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DDFAE017307FCF00259C66 /* Debug */,
+				66DDFAE117307FCF00259C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DDFAB217307FCE00259C66 /* Project object */;
+}
